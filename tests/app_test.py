@@ -1,3 +1,4 @@
+import json
 import pytest
 from pathlib import Path
 from project.app import app, init_db
@@ -64,3 +65,10 @@ def test_index(client):
 def test_database(client):
     tester = Path("test.db").is_file()
     assert tester
+
+
+def test_delete_message(client):
+    """Ensure the messages are being deleted"""
+    rv = client.get('/delete/1')
+    data = json.loads(rv.data)
+    assert data["status"] == 1
