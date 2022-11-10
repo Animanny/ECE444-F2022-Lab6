@@ -7,3 +7,6 @@ This lab is a replay of the [flaskr-tdd project](https://github.com/mjhea0/flask
 ### First Test
 
 <img width="840" alt="image" src="https://user-images.githubusercontent.com/14436239/201186706-2eb274b9-d954-47d3-9ed1-bd5e0388a888.png">
+
+### Database Setup
+<img width="855" alt="image" src="https://user-images.githubusercontent.com/14436239/201194170-a3db980d-c18f-47af-86f0-a369691e1d95.png">
