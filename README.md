@@ -10,3 +10,6 @@ This lab is a replay of the [flaskr-tdd project](https://github.com/mjhea0/flask
 
 ### Database Setup
 <img width="855" alt="image" src="https://user-images.githubusercontent.com/14436239/201194170-a3db980d-c18f-47af-86f0-a369691e1d95.png">
+
+### Templates and Views
+<img width="845" alt="image" src="https://user-images.githubusercontent.com/14436239/201197925-6b517e62-25f1-405d-8948-38388501e29a.png">
