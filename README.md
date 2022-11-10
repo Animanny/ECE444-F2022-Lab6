@@ -13,3 +13,6 @@ This lab is a replay of the [flaskr-tdd project](https://github.com/mjhea0/flask
 
 ### Templates and Views
 <img width="845" alt="image" src="https://user-images.githubusercontent.com/14436239/201197925-6b517e62-25f1-405d-8948-38388501e29a.png">
+
+### Add Some Style
+![image](https://user-images.githubusercontent.com/14436239/201199705-5f5331be-1697-48cc-9cbd-cfb72ef24c31.png)
