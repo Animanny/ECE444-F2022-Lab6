@@ -1,5 +1,7 @@
 ## ECE444 Lab 6: TDD
 
+_scroll further for the written section of the project_
+
 Ani Srikanth's submission for ECE444 Lab 6 for the Fall 2022 semester.
 
 This lab is a replay of the [flaskr-tdd project](https://github.com/mjhea0/flaskr-tdd#first-test)
@@ -62,3 +64,33 @@ After clicking 'Post 1'
 ### Linting and Code Formatting
 
 ![image](https://user-images.githubusercontent.com/14436239/202967981-4ab5c3bb-d1b4-4f85-a33e-dbe703d7ff0a.png)
+
+## Links to tests cases I've added to Education Pathways
+
+As this assignment was done after the code was submitted, you can verify these tests were written by me by looking at the Git blame of the code.
+
+https://github.com/ECE444-2022Fall/project-1-web-application-design-education-pathways-group-23-runtimeterror/blob/d71c91e015eb95406b15a827bba90e3813e926a1/Education_Pathways/tests/test_mc_api.py#L35
+
+https://github.com/ECE444-2022Fall/project-1-web-application-design-education-pathways-group-23-runtimeterror/blob/d71c91e015eb95406b15a827bba90e3813e926a1/Education_Pathways/tests/test_mc_api.py#L44
+
+https://github.com/ECE444-2022Fall/project-1-web-application-design-education-pathways-group-23-runtimeterror/blob/d71c91e015eb95406b15a827bba90e3813e926a1/Education_Pathways/tests/test_mc_api.py#L73
+
+https://github.com/ECE444-2022Fall/project-1-web-application-design-education-pathways-group-23-runtimeterror/blob/d71c91e015eb95406b15a827bba90e3813e926a1/Education_Pathways/tests/test_mc_api.py#L102
+
+https://github.com/ECE444-2022Fall/project-1-web-application-design-education-pathways-group-23-runtimeterror/blob/294b87e723d00b79016e5afe641bd9b25ef6357e/Education_Pathways/tests/test_degree.py#L32
+
+https://github.com/ECE444-2022Fall/project-1-web-application-design-education-pathways-group-23-runtimeterror/blob/294b87e723d00b79016e5afe641bd9b25ef6357e/Education_Pathways/tests/test_degree.py#L38
+
+https://github.com/ECE444-2022Fall/project-1-web-application-design-education-pathways-group-23-runtimeterror/blob/294b87e723d00b79016e5afe641bd9b25ef6357e/Education_Pathways/tests/test_degree.py#L44
+
+https://github.com/ECE444-2022Fall/project-1-web-application-design-education-pathways-group-23-runtimeterror/blob/294b87e723d00b79016e5afe641bd9b25ef6357e/Education_Pathways/tests/test_degree.py#L75
+
+## What are the pros and cons of TDD?
+
+While there are several pros for Test Driven Development (TDD), I will focus on two in particular. The first pro comes from the idea that defining the expected behaviour of code in its entirety, from input to output, can ease the development of the functions that execute such behaviour. When you write tests for the functions first, you assert certain behaviour of the function. Taking the time to determine, formulate, and write these tests with your team can ensure everyone has a concrete idea about the expectations of a module before it begins development. Further, it can allow for parallel processes to occur since, with the tests being written first, consumers of your module can safely assume the inputs of their modules. In essence, this is the idea of test-driven development, creating tests **before** writing the functions, steering (or driving) the method by which you write the code.
+
+The second pro of TDD allows for regression testing. Regression testing is defined as "re-running functional and non-functional tests to ensure that previously developed and tested software still performs as expected after a change."[Wikipedia] When every component of the code is properly covered by tests. Any change in code can ensure previously functioning components, unrelated to the code change, remain working. In the event a test related to new changes fails due to the change, it can be properly analyzed to verify the new behaviour is as required.
+
+One significant problem with applying TDD arises when you compare the quality of the tests relative to the quantity of the tests. Tests are often written with the metric of code coverage in mind, but this doesn't necessarily test the rigour of the code and its ability to withstand issues. It's important that while applying TDD in your code base, you plan and write tests that will do a sufficient job of testing the resiliency of the code.
+
+Further, TDD genuinely requires a lot of work. Developers need the necessary knowledge and determination to write these tests consistently. This could require additional ramp-up time for developers whom TDD is new to. TDD can only be relied on if every developer does a good job of applying it to all aspects of the system to develop and maintain the tests!
