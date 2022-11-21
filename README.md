@@ -58,3 +58,7 @@ After clicking 'Post 1'
 ### Postgres Heroku
 
 ![image](https://user-images.githubusercontent.com/14436239/202966178-f8ac89f5-31b7-43f0-b2d3-577196298a85.png)
+
+### Linting and Code Formatting
+
+![image](https://user-images.githubusercontent.com/14436239/202967981-4ab5c3bb-d1b4-4f85-a33e-dbe703d7ff0a.png)
