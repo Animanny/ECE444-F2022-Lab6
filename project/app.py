@@ -1,8 +1,9 @@
+
 import sqlite3
 from pathlib import Path
 
 from flask import Flask, g, render_template, request, session, \
-                  flash, redirect, url_for, abort, jsonify
+    flash, redirect, url_for, abort, jsonify
 from flask_sqlalchemy import SQLAlchemy
 
 
@@ -24,7 +25,7 @@ app.config.from_object(__name__)
 # init sqlalchemy
 db = SQLAlchemy(app)
 
-from project import models
+from project import models  # noqa
 
 
 @app.route('/')
@@ -82,6 +83,15 @@ def delete_entry(post_id):
     except Exception as e:
         result = {'status': 0, 'message': repr(e)}
     return jsonify(result)
+
+
+@app.route('/search/', methods=['GET'])
+def search():
+    query = request.args.get("query")
+    entries = db.session.query(models.Post)
+    if query:
+        return render_template('search.html', entries=entries, query=query)
+    return render_template('search.html')
 
 
 if __name__ == "__main__":

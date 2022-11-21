@@ -46,3 +46,7 @@ After clicking 'Post 1'
 ### SQLAlchemy
 
 ![image](https://user-images.githubusercontent.com/14436239/202963412-2c6d3a13-9844-40f5-8026-e7b8e3e83aae.png)
+
+### Search Page
+
+![image](https://user-images.githubusercontent.com/14436239/202964720-31531cef-c6ce-4374-adc0-3a32ea1139f9.png)
