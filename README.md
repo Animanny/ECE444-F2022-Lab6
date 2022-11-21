@@ -50,3 +50,7 @@ After clicking 'Post 1'
 ### Search Page
 
 ![image](https://user-images.githubusercontent.com/14436239/202964720-31531cef-c6ce-4374-adc0-3a32ea1139f9.png)
+
+### Login Required
+
+![image](https://user-images.githubusercontent.com/14436239/202965098-d726b4b6-f49a-4378-b194-557b23150ee0.png)
