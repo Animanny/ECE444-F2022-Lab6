@@ -31,3 +31,6 @@ After clicking 'Post 1'
 <img width="602" alt="image" src="https://user-images.githubusercontent.com/14436239/201203305-98d76ce5-cc02-45db-bde7-f09ef41c0321.png">
 <img width="405" alt="image" src="https://user-images.githubusercontent.com/14436239/201203382-f0c80b7e-bd1d-4b64-9e81-f1dc5be2b293.png">
 
+### Deployment
+![image](https://user-images.githubusercontent.com/14436239/202942686-4866723e-f1b1-46ba-aa55-5f6dc41671fd.png)
+
