@@ -42,3 +42,7 @@ After clicking 'Post 1'
 ### Bootstrap
 
 ![image](https://user-images.githubusercontent.com/14436239/202961865-3a56a097-455e-47e2-8b35-20e4a0fb3a32.png)
+
+### SQLAlchemy
+
+![image](https://user-images.githubusercontent.com/14436239/202963412-2c6d3a13-9844-40f5-8026-e7b8e3e83aae.png)
