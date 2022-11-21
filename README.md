@@ -9,15 +9,19 @@ This lab is a replay of the [flaskr-tdd project](https://github.com/mjhea0/flask
 <img width="840" alt="image" src="https://user-images.githubusercontent.com/14436239/201186706-2eb274b9-d954-47d3-9ed1-bd5e0388a888.png">
 
 ### Database Setup
+
 <img width="855" alt="image" src="https://user-images.githubusercontent.com/14436239/201194170-a3db980d-c18f-47af-86f0-a369691e1d95.png">
 
 ### Templates and Views
+
 <img width="845" alt="image" src="https://user-images.githubusercontent.com/14436239/201197925-6b517e62-25f1-405d-8948-38388501e29a.png">
 
 ### Add Some Style
+
 ![image](https://user-images.githubusercontent.com/14436239/201199705-5f5331be-1697-48cc-9cbd-cfb72ef24c31.png)
 
 ### Javascript
+
 <img width="856" alt="image" src="https://user-images.githubusercontent.com/14436239/201203731-8f8e06a5-65da-4d77-aefd-831fc77b2759.png">
 
 Adding 2 posts
@@ -32,5 +36,9 @@ After clicking 'Post 1'
 <img width="405" alt="image" src="https://user-images.githubusercontent.com/14436239/201203382-f0c80b7e-bd1d-4b64-9e81-f1dc5be2b293.png">
 
 ### Deployment
+
 ![image](https://user-images.githubusercontent.com/14436239/202942686-4866723e-f1b1-46ba-aa55-5f6dc41671fd.png)
 
+### Bootstrap
+
+![image](https://user-images.githubusercontent.com/14436239/202961865-3a56a097-455e-47e2-8b35-20e4a0fb3a32.png)
