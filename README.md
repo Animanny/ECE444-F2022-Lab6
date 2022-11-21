@@ -54,3 +54,7 @@ After clicking 'Post 1'
 ### Login Required
 
 ![image](https://user-images.githubusercontent.com/14436239/202965098-d726b4b6-f49a-4378-b194-557b23150ee0.png)
+
+### Postgres Heroku
+
+![image](https://user-images.githubusercontent.com/14436239/202966178-f8ac89f5-31b7-43f0-b2d3-577196298a85.png)
